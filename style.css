@@ -32,14 +32,26 @@ h2 span {
     border:.2vw solid #F3D7ED;
 }
 
-/* picture of me */
-
-img {
+img  {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+/* image of me */
+.img1 {
     width: 15%;
     border-radius:2pt;
+}
+/* button images */
+.img2 { /* GitHub */
+    width: 12%;
+}
+.img3 { /* LinkedIn */
+    width: 14%;
+}
+.img4 { /* email */
+    padding: 4px;
+    width: 21%;
 }
 
 /* buttons */
@@ -52,7 +64,7 @@ img {
     border-color: white;
     border-width:.2vw;
     border-radius: 8pt;
-    padding: 10px;
+    padding: 5px;
 }
 .btn:hover {
     background-color:#F3D7ED;
