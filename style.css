@@ -1,24 +1,52 @@
 p {
     color:white; 
     font-family:Trebuchet MS; 
-    font-size:14pt;
+    font-size:1vw;
 }
-h1 {
-    background-color:azure; 
-    padding: 15px;
-    font-size: 45pt; 
-    text-align:center;
-}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Trebuchet MS; 
     color: black
 }
+
+h1 {
+    background-color:slategrey; 
+    background-clip:border-box;
+    border:.5vw solid #F3D7ED;
+    padding: 2vw;
+    font-size: 5vw; 
+    text-align:center;
+}
+
+h4 {
+    font-size: 1.5vw;
+}
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 25%;
+    border-radius:2pt;
+}
+
+/* */
+
+.btn {
+    width:11% ;
+    font-size: 1vw;
+    font-family: Trebuchet MS;
+    color:black;
+    background-color:white;
+    border-color: white;
+    border-width:.2vw;
+    border-radius: 8pt;
+    padding: 10px;
+}
+.btn:hover {
+    background-color:#F3D7ED;
 }
 
 body {
-    background-color:slategrey;
+    background-color:#191d30;
 }
