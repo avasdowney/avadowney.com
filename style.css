@@ -1,7 +1,8 @@
 p {
     color:white; 
     font-family:Trebuchet MS; 
-    font-size:1vw;
+    font-size:1.5vw;
+    padding: .2vw;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,6 +10,7 @@ h1, h2, h3, h4, h5, h6 {
     color: black
 }
 
+/* Title of my Website */
 h1 {
     background-color:slategrey; 
     background-clip:border-box;
@@ -18,23 +20,32 @@ h1 {
     text-align:center;
 }
 
-h4 {
-    font-size: 1.5vw;
+/* Subheadings of my Website */
+h2 {
+    padding: .2vw;
+    font-size: 2vw; 
 }
+h2 span {
+    background-color:slategrey; 
+    background-clip:border-box;
+    padding: .4vw;
+    border:.2vw solid #F3D7ED;
+}
+
+/* picture of me */
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
+    width: 15%;
     border-radius:2pt;
 }
 
-/* */
-
+/* buttons */
 .btn {
-    width:11% ;
-    font-size: 1vw;
+    width:15% ;
+    font-size: 1.5vw;
     font-family: Trebuchet MS;
     color:black;
     background-color:white;
@@ -46,6 +57,8 @@ img {
 .btn:hover {
     background-color:#F3D7ED;
 }
+
+/* background */
 
 body {
     background-color:#191d30;
