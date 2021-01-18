@@ -1,8 +1,12 @@
+/* Font sizes and styles */
 p {
     color:white; 
     font-family:Trebuchet MS; 
-    font-size:1.5vw;
+    font-size: 1.5vw;
     padding: .2vw;
+}
+p.responsive {
+    font-size: max(min(1.5vw, 18pt), 8pt);    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -10,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
     color: black
 }
 
-/* Title of my Website */
+/* Title */
 h1 {
     background-color:slategrey; 
     background-clip:border-box;
@@ -20,7 +24,7 @@ h1 {
     text-align:center;
 }
 
-/* Subheadings of my Website */
+/* Subheadings */
 h2 {
     padding: .2vw;
     font-size: 2vw; 
@@ -31,7 +35,11 @@ h2 span {
     padding: .4vw;
     border:.2vw solid #F3D7ED;
 }
+h2.responsive {
+    font-size: min(2vw, 25pt);
+}
 
+/* Images */
 img  {
     display: block;
     margin-left: auto;
@@ -50,14 +58,14 @@ img  {
     width: 14%;
 }
 .img4 { /* email */
-    padding: 4px;
+    padding: 2px;
     width: 21%;
 }
 
 /* buttons */
 .btn {
-    width:15% ;
-    font-size: 1.5vw;
+    width:10% ;
+    font-size: 1vw;
     font-family: Trebuchet MS;
     color:black;
     background-color:white;
@@ -71,7 +79,6 @@ img  {
 }
 
 /* background */
-
 body {
     background-color:#191d30;
 }
