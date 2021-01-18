@@ -14,6 +14,36 @@ h1, h2, h3, h4, h5, h6 {
     color: black
 }
 
+/* Bottom bar */
+h3 {
+    background-color:slategrey; 
+    background-clip:border-box;
+    border:.5vw solid #F3D7ED;
+    padding: 4vw;
+    font-size: 1vw; 
+    text-align:end;
+}
+.bottom-bar {
+    width: 100%;
+    background-color: slategrey;
+    overflow: auto;
+}
+.bottom-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 2vw 0;
+    transition: all 0.3 ease;
+    color:black;
+    font-size: 1vw;
+}
+.bottom-bar a:hover {
+    background-color:black;
+}
+.active {
+    background-color:#F3D7ED;
+}
+
 /* Title */
 h1 {
     background-color:slategrey; 
