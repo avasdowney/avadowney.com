@@ -9,20 +9,12 @@ p.responsive {
     font-size: max(min(1.5vw, 18pt), 8pt);   
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     font-family: Trebuchet MS; 
     color: black
 }
 
 /* Bottom bar */
-h3 {
-    background-color:slategrey; 
-    background-clip:border-box;
-    border:.5vw solid #F3D7ED;
-    padding: 4vw;
-    font-size: 1vw; 
-    text-align:end;
-}
 .bottom-bar {
     width: 100%;
     background-color: slategrey;
@@ -46,6 +38,8 @@ h3 {
 
 /* Title */
 h1 {
+    color: black;
+    font-family: courier;
     background-color:slategrey; 
     background-clip:border-box;
     border:.5vw solid #F3D7ED;
@@ -123,4 +117,39 @@ body {
 .margin {
     margin-left: 5vw;
     margin-right: 5vw;
+}
+
+.two-columns {
+    width: 100%;
+    overflow: auto;
+}
+.two-columns a {
+    float: left;
+    width: 60%;
+    text-align: left;
+    padding: 2vw 0;
+    transition: all 0.3 ease;
+    color:white;
+    font-size: 1.5vw;
+    column-gap: 100px;
+}
+.two-columns b {
+    float: left;
+    width: 35%;
+    text-align: left;
+    padding: 2vw 0;
+    transition: all 0.3 ease;
+    color:white;
+    font-size: 1.5vw;
+    column-gap: 100px;
+}
+.two-columns c {
+    float: left;
+    width: 5%;
+    text-align: left;
+    padding: 2vw 0;
+    transition: all 0.3 ease;
+    color:white;
+    font-size: 1.5vw;
+    column-gap: 100px;
 }
