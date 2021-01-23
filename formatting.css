@@ -1,0 +1,68 @@
+/* background */
+body {
+    background-image:url("assets/hexabump/hexabump.png");
+    background-color:#262626;
+}
+
+.margin {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.two-columns {
+    width: 100%;
+    overflow: auto;
+}
+.two-columns a {
+    float: left;
+    width: 60%;
+    text-align: left;
+    padding: 2vw 0;
+    transition: all 0.3 ease;
+    color:white;
+    font-size: 1.5vw;
+    column-gap: 100px;
+}
+.two-columns a3 {
+    float: left;
+    width: 35%;
+    text-align: left;
+    padding: 2vw 0;
+    transition: all 0.3 ease;
+    color:white;
+    font-size: 1.5vw;
+    column-gap: 100px;
+}
+.two-columns a2 {
+    float: left;
+    width: 5%;
+    text-align: left;
+    padding: 2vw 0;
+    transition: all 0.3 ease;
+    color:white;
+    font-size: 1.5vw;
+    column-gap: 100px;
+}
+
+/* Bottom bar */
+.bottom-bar {
+    width: 100%;
+    background-color: slategrey;
+    overflow: auto;
+}
+.bottom-bar a {
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    padding: 1vw 0;
+    transition: all 0.3 ease;
+    color:black;
+    font-size: 1vw;
+}
+.bottom-bar a:hover {
+    background-color:black;
+}
+.active {
+    background-color:greenyellow;
+    color: black;
+}

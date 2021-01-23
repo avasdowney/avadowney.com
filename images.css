@@ -1,0 +1,39 @@
+/* Images general */
+img  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* image of me */
+.img1 {
+    width: 15%;
+    border-radius:2pt;
+}
+/* button images */
+.img2 { /* GitHub */
+    width: 12%;
+}
+.img3 { /* LinkedIn */
+    width: 14%;
+}
+.img4 { /* email */
+    padding: 2px;
+    width: 21%;
+}
+
+/* buttons */
+.btn {
+    width:15%;
+    font-size: 1vw;
+    font-family: Trebuchet MS;
+    color:black;
+    background-color:white;
+    border-color: white;
+    border-width:.2vw;
+    border-radius: 8pt;
+    padding: 5px;
+}
+.btn:hover {
+    background-color:greenyellow;
+}
