@@ -1,7 +1,7 @@
 /* Font sizes and styles */
 p {
-    color:white; 
-    font-family:Trebuchet MS; 
+    color:white;
+    font-family: courier, monospace; 
     font-size: 1.5vw;
     padding: .2vw;
 }
@@ -10,8 +10,8 @@ p.responsive {
 }
 
 h2, h3, h4, h5, h6 {
-    font-family: Trebuchet MS; 
-    color: black
+    font-family: courier, monospace; 
+    color: greenyellow
 }
 
 /* Bottom bar */
@@ -22,9 +22,9 @@ h2, h3, h4, h5, h6 {
 }
 .bottom-bar a {
     float: left;
-    width: 20%;
+    width: 33.3333%;
     text-align: center;
-    padding: 2vw 0;
+    padding: 1vw 0;
     transition: all 0.3 ease;
     color:black;
     font-size: 1vw;
@@ -33,31 +33,52 @@ h2, h3, h4, h5, h6 {
     background-color:black;
 }
 .active {
-    background-color:#F3D7ED;
+    background-color:greenyellow;
+    color: black;
 }
 
-/* Title */
-h1 {
-    color: black;
-    font-family: courier;
-    background-color:slategrey; 
-    background-clip:border-box;
-    border:.5vw solid #F3D7ED;
-    padding: 2vw;
-    font-size: 5vw; 
-    text-align:center;
-}
+/* Typing Animation */
+.wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .typing-title {
+    width: 10.1ch;
+    animation: typing 2.5s steps(10), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: courier, monospace;
+    font-size: 5vw;
+    color: greenyellow;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
 
 /* Subheadings */
 h2 {
-    padding: .2vw;
+    padding: .1vw;
     font-size: 2vw; 
 }
 h2 span {
     background-color:slategrey; 
     background-clip:border-box;
     padding: .4vw;
-    border:.2vw solid #F3D7ED;
+    border:.2vw solid greenyellow;
 }
 h2.responsive {
     font-size: min(2vw, 25pt);
@@ -95,7 +116,7 @@ img  {
 
 /* buttons */
 .btn {
-    width:10% ;
+    width:15%;
     font-size: 1vw;
     font-family: Trebuchet MS;
     color:black;
@@ -106,12 +127,13 @@ img  {
     padding: 5px;
 }
 .btn:hover {
-    background-color:#F3D7ED;
+    background-color:greenyellow;
 }
 
 /* background */
 body {
-    background-color:#191d30;
+    background-image:url("assets/hexabump/hexabump.png");
+    background-color:#262626;
 }
 
 .margin {
