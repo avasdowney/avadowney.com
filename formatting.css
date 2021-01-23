@@ -44,25 +44,44 @@ body {
     column-gap: 100px;
 }
 
-/* Bottom bar */
-.bottom-bar {
-    width: 100%;
-    background-color: slategrey;
-    overflow: auto;
-}
-.bottom-bar a {
-    float: left;
-    width: 33.3333%;
-    text-align: center;
-    padding: 1vw 0;
-    transition: all 0.3 ease;
-    color:black;
-    font-size: 1vw;
-}
-.bottom-bar a:hover {
+/* Navigation Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: .5vw;
+    overflow: hidden;
     background-color:black;
-}
-.active {
-    background-color:greenyellow;
-    color: black;
-}
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    font-family: Courier, monospace;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:#111;
+    border-radius: 5pt;
+  }
+  
+  .active {
+    background-color: black;
+  }
+
+  /* Sections */
+
+  #Contact-Me {
+  }
+
+  #Home {
+  }
