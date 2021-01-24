@@ -17,6 +17,17 @@
     font-size: 5vw;
     color: greenyellow;
 }
+
+.typing-subtitle {
+    width: 18ch;
+    animation: typing 2.5s steps(10), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: courier, monospace;
+    font-size: 2vw;
+    color: slategrey;
+}
   
 @keyframes typing {
     from {

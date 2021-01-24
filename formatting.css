@@ -80,8 +80,32 @@ ul {
 
   /* Sections */
 
-  #Contact-Me {
+  #Home {
+    padding-top: 0px;
+    margin-top: 0px;
   }
 
-  #Home {
+  #Education {
+    padding-top: 50px;
+    margin-top: 50px;
+  }
+
+  #Work-Experience {
+      padding-top: 50px;
+      margin-top: -50px;
+  }
+
+  #Other-Experience {
+    padding-top: 50px;
+    margin-top: -50px;
+  }
+
+  #Projects {
+    padding-top: 50px;
+    margin-top: -50px;
+  }
+
+  #Contact-Me {
+    padding-top: 50px;
+    margin-top: -50px;
   }
