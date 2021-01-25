@@ -6,7 +6,7 @@ p {
     padding: .2vw;
 }
 p.responsive {
-    font-size: max(min(1.5vw, 18pt), 17pt);   
+    font-size: max(min(1.5vw, 18pt), 16pt);   
 }
 
 h2, h3, h4, h5, h6 {
@@ -26,11 +26,11 @@ h2 span {
     border:.2vw solid greenyellow;
 }
 h2.responsive {
-    font-size: max(min(2vw, 30pt), 22pt);
+    font-size: max(min(2vw, 30pt), 20pt);
 }
 
 .important {
-    font-size: max(min(1.7vw, 20pt), 12pt);
+    font-size: max(min(1.7vw, 20pt), 16pt);
     color: slategrey;
     font-weight: bolder;
     
