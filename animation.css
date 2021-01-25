@@ -9,7 +9,7 @@
   
 .typing-title {
     width: 10ch;
-    animation: typing 2.5s steps(10), blink .5s step-end infinite alternate;
+    animation: typing 3.5s steps(10), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;

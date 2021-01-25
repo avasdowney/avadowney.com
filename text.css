@@ -6,7 +6,7 @@ p {
     padding: .2vw;
 }
 p.responsive {
-    font-size: max(min(1.5vw, 18pt), 8pt);   
+    font-size: max(min(1.5vw, 18pt), 10pt);   
 }
 
 h2, h3, h4, h5, h6 {
