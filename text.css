@@ -3,11 +3,11 @@
 p {
     color:white;
     font-family: courier, monospace; 
-    font-size: 1vw;
+    font-size: 16pt;
     padding: .2vw;
 }
 p.responsive {
-    font-size: max(min(1vw, 18pt), 16pt);   
+    font-size: max(min(1vw, 18pt), 14pt);   
 }
 
 h2, h3, h4, h5, h6 {
