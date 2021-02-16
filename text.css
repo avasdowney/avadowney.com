@@ -7,7 +7,7 @@ p {
     padding: .2vw;
 }
 p.responsive {
-    font-size: max(min(1vw, 18pt), 14pt);   
+    font-size: max(min(.5vw, 18pt), 14pt);   
 }
 
 h2, h3, h4, h5, h6 {
@@ -18,7 +18,7 @@ h2, h3, h4, h5, h6 {
 /* Subheadings */
 h2 {
     padding: .1vw;
-    font-size: 2vw; 
+    font-size: 1.5vw; 
 }
 h2 span {
     background-color:slategrey; 
