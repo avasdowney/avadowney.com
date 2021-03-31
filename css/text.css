@@ -40,3 +40,10 @@ h2.responsive {
 li {
     font-size: max(min(1vw, 16pt), 14pt);
 }
+
+/** links **/
+
+a.no-decoration {
+    text-decoration: none;
+    color: slategrey;
+}
