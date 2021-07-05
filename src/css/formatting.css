@@ -1,0 +1,112 @@
+/* background */
+body {
+    background-color:#262626;
+}
+
+.margin {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.two-columns {
+    width: 100%;
+    overflow: auto;
+}
+.two-columns a {
+    float: left;
+    width: 60%;
+    text-align: left;
+    padding: 2vw 0;
+    transition: all 0.3 ease;
+    color:white;
+    column-gap: 100px;
+}
+.two-columns a3 {
+    float: left;
+    width: 35%;
+    text-align: left;
+    padding: 2vw 0;
+    transition: all 0.3 ease;
+    color:white;
+    column-gap: 100px;
+}
+.two-columns a2 {
+    float: left;
+    width: 5%;
+    text-align: left;
+    padding: 2vw 0;
+    transition: all 0.3 ease;
+    color:white;
+    column-gap: 100px;
+}
+
+/* Navigation Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: .5vw;
+    overflow: hidden;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    font-family: Courier, monospace;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:#111;
+    border-radius: 5pt;
+  }
+  
+  .active {
+    background-color: black;
+  }
+
+  /* Sections */
+
+  #Home {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  #About {
+    padding-top: 50px;
+    margin-top: -50px;
+  }
+
+  #Education {
+    padding-top: 50px;
+    margin-top: -50px;
+  }
+
+  #Work-Experience {
+      padding-top: 50px;
+      margin-top: -50px;
+  }
+
+  #Other-Experience {
+    padding-top: 50px;
+    margin-top: -50px;
+  }
+
+  #Projects {
+    padding-top: 50px;
+    margin-top: -50px;
+  }
+
+  #Contact-Me {
+    padding-top: 50px;
+    margin-top: -50px;
+  }
