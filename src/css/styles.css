@@ -1,0 +1,22 @@
+body {
+    background-color: #586774;
+    margin-right: 5vw;
+    margin-left: 5vw;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+}
+
+h2 {
+    font-size: 2vw;
+    color: white;
+}
+
+p {
+    font-size: 1.5vw;
+}
