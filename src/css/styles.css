@@ -17,6 +17,11 @@ h2 {
     color: white;
 }
 
-p {
+h3 {
     font-size: 1.5vw;
+    color: #a8e2b9;
+}
+
+p {
+    font-size: 1.3vw;
 }
