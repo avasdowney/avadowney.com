@@ -10,20 +10,44 @@ div.content {
 
 h1 {
     text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 1vh;
     color: white;
-    font-size: 5vw;
+    font-size: max(min(6vw, 100pt), 6vh);
+}
+
+@keyframes wheelHueColor {
+    from, to { color: #ffadad; }
+    12.5%      { color: #ffd6a5; }
+    25%      { color: #fdffb6; }
+    37.5%      { color: #caffbf; }
+    50%      { color: #9bf6ff; }
+    62.5%      { color: #a0c4ff; }
+    85%      { color: #bdb2ff; }
+    97.5%      { color: #ffc6ff; }
+}
+
+.rotateColor {
+    color: #ffffff;
+    animation: wheelHueColor 10s infinite;
+    transform: translateY(-50%);
 }
 
 h2 {
-    font-size: 2vw;
-    color: white;
+    font-size: max(min(2vw, 20pt), 2vh);
+    color: #ffffff;
 }
 
 h3 {
-    font-size: 1.5vw;
-    color: #a8e2b9;
+    font-size: max(min(1.5vw, 18pt), 1.5vh);
+    color: #ffffff;
 }
 
 p {
-    font-size: 1.3vw;
+    font-size: max(min(1.3vw, 16pt), 1.3vh);
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: #ffffff;
 }
