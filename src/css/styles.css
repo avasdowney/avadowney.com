@@ -1,5 +1,6 @@
 body {
     background-color: #3d3d40;
+    background-image: url(../images/simple_space_background.jpeg);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
@@ -45,9 +46,10 @@ h3 {
 
 p {
     font-size: max(min(1.3vw, 16pt), 1.3vh);
+    color: #808080;
 }
 
 a:-webkit-any-link {
     text-decoration: none;
-    color: #ffffff;
+    color: #b1b1b1;
 }
