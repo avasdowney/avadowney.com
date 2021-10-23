@@ -12,6 +12,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Navbar />
     <Home />
+    <ResumeContent />
   </BrowserRouter>,
   document.getElementById('root')
 );

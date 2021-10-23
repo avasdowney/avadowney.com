@@ -6,6 +6,7 @@ import Education from './Education'
 import Work from './WorkExperience'
 import Other from './OtherExperience'
 import Projects from './Projects'
+import Contact from './Contact'
 
 function ResumeContent() {
     return (
@@ -15,6 +16,7 @@ function ResumeContent() {
             <Work />
             <Other />
             <Projects />
+            <Contact />
         </Router>
     );
 }

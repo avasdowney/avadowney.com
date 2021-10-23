@@ -11,7 +11,7 @@ div.content {
 
 h1 {
     text-align: center;
-    margin-top: 15vh;
+    margin-top: 16vh;
     margin-bottom: 1vh;
     color: white;
     font-size: max(min(6vw, 100pt), 6vh);
@@ -37,6 +37,7 @@ h1 {
 h2 {
     font-size: max(min(2vw, 20pt), 2vh);
     color: #ffffff;
+    margin-top: 8vh;
 }
 
 h3 {
@@ -47,6 +48,7 @@ h3 {
 p {
     font-size: max(min(1.3vw, 16pt), 1.3vh);
     color: #808080;
+    margin-top: 1vh;
 }
 
 a:-webkit-any-link {

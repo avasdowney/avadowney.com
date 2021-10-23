@@ -3,23 +3,20 @@ import {
     Nav,
     NavLogo,
     NavLink,
-    Bars,
     NavMenu,
     NavBtn,
     NavBtnLink
 } from './NavbarElements'
-import headshot from '../../images/ava_face.png'
+import logo from '../../images/ava_temp_logo.PNG'
 
 const Navbar = () => {
     return (
         <>
             <Nav>
-                <NavLogo to="/home"> <img src={headshot} alt="logo" style={{width: "5%"}}/> </NavLogo>
-                <Bars />
+                <NavLogo to=""> <img src={logo} alt="logo" style={{width: "4%"}}/> </NavLogo>
                 <NavMenu>
-                    <NavLink to="/home" activeStyle> Home </NavLink>
-                    <NavLink to="/resume" activeStyle> Resume </NavLink>
-                    <NavBtn> <NavBtnLink to="/contact"> Contact Me </NavBtnLink> </NavBtn>
+                    <NavBtn> <a href="https://github.com/avasdowney" target = "_blank"> GitHub </a> </NavBtn>
+                    <NavBtn> <a href="https://www.linkedin.com/in/ava-downey-9b59931aa/" target="_blank"> LinkedIn </a> </NavBtn>
                 </NavMenu>
             </Nav>
         </>
