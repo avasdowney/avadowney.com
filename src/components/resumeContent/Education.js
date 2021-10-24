@@ -7,13 +7,14 @@ const Education = () => {
                 <h2 class="rotateColor"> Education </h2>
                 <p>
                     <h3> University of Hartford </h3> 
-                        B.S. Computer Science, Minors in Mathematics and Data Science - 3.90/4.0 GPA {<br></br>}
+                        B.S. Computer Science, Minors in Mathematics and Data Science, Honors - 3.90/4.0 GPA {<br></br>}
                         Class of 2023 {<br></br>}{<br></br>}
                         Extracurriculars: {<br></br>}
                             - Society of Women Engineers {<br></br>}
                             - oSTEM {<br></br>}
                             - Coding Club {<br></br>}
-                            - Cybersecurity Club {<br></br>}{<br></br>}
+                            - Cybersecurity Club {<br></br>}
+                            - A&amp;S Student Ambassador {<br></br>}{<br></br>}
                         Awards: {<br></br>}
                             - National Honors Full Tuition Scholarship (2019) {<br></br>}
                             - Computer Science Freshmen Achievement Award (2020) {<br></br>}
@@ -24,7 +25,9 @@ const Education = () => {
                         Extracurriculars: {<br></br>}
                             - Cyber Patriot {<br></br>}
                             - Junior/Senior Steering Commitee {<br></br>}
-                            - Track &amp; Field (Indoor and Outdoor)
+                            - Track &amp; Field (Indoor and Outdoor) {<br></br>}{<br></br>}
+                        Awards: {<br></br>}
+                            - Cyber Patriot Semi-Finalist (2018 and 2019)
                 </p>
             </div>
         </header>

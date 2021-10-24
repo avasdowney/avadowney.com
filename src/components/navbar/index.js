@@ -8,8 +8,8 @@ import {
     NavBtnLink
 } from './NavbarElements'
 import logo from '../../images/ava_temp_logo.PNG'
-import GitHub from '../../images/LI-In-Bug.png'
-import LinkedIn from '../../images/GitHub-Mark-Light-64px.png'
+import LinkedIn from '../../images/LI-In-Bug.png'
+import GitHub from '../../images/GitHub-Mark-Light-64px.png'
 
 const Navbar = () => {
 

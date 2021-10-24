@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <header>
             <div class = "content">
-                <h2 class="rotateColor"> Contact </h2>
+                <h2 class="rotateColor"> Contact Me </h2>
                 <p>
                     Ava Downey {<br></br>}
                     avasdowney@gmail.com {<br></br>}

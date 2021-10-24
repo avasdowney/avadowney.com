@@ -7,10 +7,9 @@ const WorkExperience = () => {
                 <h2 class="rotateColor"> Work Experience </h2>
                 <p>
                     <h3> Software Engineering Intern - Chevron </h3>
-                        Jun. 2021 - Present {<br></br>}
-                        I work closely with my Scrum Team and my mentors to complete several projects using 
-                        skills and tools such as Azure DevOps, Power BI, and SAP. I also gained experience 
-                        working with several file types for CI/CD pipelines.
+                        Jun. 2021 - Aug. 2021 {<br></br>}
+                        I worked on several projects such as debugging and adding features to CI/CD pipelines
+                        using Azure DevOps, as well as creating a Power BI dashboard for my Scrum team.
                     <h3> CS220P Teaching Asisstant - University of Hartford </h3>
                         Jan. 2021 - May 2021 {<br></br>}
                         I was a teaching assistant for a Data Structures course under Dr. Sheikh Islam.
