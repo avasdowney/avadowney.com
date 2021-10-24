@@ -1,7 +1,11 @@
-# Getting Started with Create React App
+# Ava Downey Personal Website
+
+## Welcome to the repo for my personal website. 
+I am currently learning react.js and using it to revamp my personal website. If you have any suggestions or comments, feel free to leave an issue!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<!-- 
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +72,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+-->
