@@ -6,6 +6,13 @@ const OtherExperience = () => {
             <div class = "content"> 
                 <h2 class="rotateColor"> Other Experience </h2>
                 <p>
+                    <h3> Make48 Competitor </h3>
+                        October 2021 {<br></br>}
+                        Competed in the <a href="https://www.make48.com/post/meet-your-hartford-teams" target='_blank' rel='noreferrer'> Make48 </a>
+                        Competition in Hartford, CT to represent the University of Hartford Honors program. I worked 
+                        with my team over 48 hours to create a prototype, marketing plan, and sales sheet for our 
+                        invention following the prompt "outdoor lifestyle." This competition will be aired in January, 
+                        2022 on PBS, Amazon Prime Video, and Tubi.
                     <h3> President, oSTEM  </h3>
                         May 2021 - Present {<br></br>}
                         Out in STEM (oSTEM) works on creating an inclusive space on campus for LGBT people and their 
