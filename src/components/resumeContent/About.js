@@ -1,9 +1,20 @@
 import React from "react"
 
+import headshot from '../../images/ava_face.png'
+
+const imgStyle = {
+    display: 'flex',
+    width: '25%',
+    margin: '0 auto'
+};
+
 const About = () => {
     return (
         <header>
             <div class = "content">
+                <h1 class="rotateColor"> Ava Downey </h1>
+                <img src={headshot} alt="headshot" style={imgStyle} />
+
                 <h2 class="rotateColor"> About </h2> 
                 <p>
                     I am a Junior honors student majoring in Computer Science, and minoring in both Mathematics and 
