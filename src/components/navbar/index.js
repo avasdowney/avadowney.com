@@ -2,34 +2,21 @@ import React from 'react'
 import {
     Nav,
     NavLink,
-    Bars,
     NavMenu,
     NavBtn,
     NavBtnLink
 } from './NavbarElements'
+
+import "../../css/styles.css"
 
 import LinkedIn from '../../images/LI-In-Bug.png'
 import GitHub from '../../images/GitHub-Mark-Light-64px.png'
 
 const Navbar = () => {
 
-    const imgStyle = {
-        width: "45%"
-    }
-
     return (
         <>
-            {/* <Nav>
-                <NavLogo to=""> <img src={logo} alt="logo" style={{width: "4%"}}/> </NavLogo>
-                <NavMenu>
-                    <NavBtn> <a href="https://github.com/avasdowney" target = "_blank"> <img src={GitHub} alt="GitHub" style={imgStyle}/> </a> </NavBtn>
-                    <NavBtn> <a href="https://www.linkedin.com/in/ava-downey-9b59931aa/" target="_blank"> <img src={LinkedIn} alt="LinkedIn" style={imgStyle}/> </a> </NavBtn>
-                </NavMenu>
-            </Nav> */}
-
             <Nav>
-                <Bars />
-        
                 <NavMenu>
                 <NavLink to='/about' activeStyle>
                     About
@@ -48,8 +35,8 @@ const Navbar = () => {
                 </NavLink>
                 </NavMenu>
                 <NavBtn>
-                    <NavBtn> <a href="https://github.com/avasdowney" target = "_blank"> <img src={GitHub} alt="GitHub" style={imgStyle}/> </a> </NavBtn>
-                    <NavBtn> <a href="https://www.linkedin.com/in/ava-downey-9b59931aa/" target="_blank"> <img src={LinkedIn} alt="LinkedIn" style={imgStyle}/> </a> </NavBtn>
+                    <NavBtn> <a href="https://github.com/avasdowney" target = "_blank"> <img src={GitHub} alt="GitHub" class="navImage"/> </a> </NavBtn>
+                    <NavBtn> <a href="https://www.linkedin.com/in/ava-downey-9b59931aa/" target="_blank"> <img src={LinkedIn} alt="LinkedIn" class="navImage"/> </a> </NavBtn>
                     <NavBtnLink to='/contact'>
                         Contact Me
                     </NavBtnLink>

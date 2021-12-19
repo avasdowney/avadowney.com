@@ -1,4 +1,3 @@
-import { FaBars } from "react-icons/fa"
 import {NavLink as Link } from "react-router-dom"
 import styled from "styled-components"
 
@@ -8,17 +7,18 @@ export const Nav = styled.nav`
     height: 10vh;
     display: flex;
     justify-content: space-between;
-    padding: 0.2rem calc((100vw - 1000px) / 2);
+    padding: 0.2rem / 2);
     z-index: 12;
 `;
 
 // active currently does nothing
 export const NavLink = styled(Link)`
+    font-size: 1.1vmax;
     color: #808080;
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0 1rem;
+    padding: 0 1vw;
     height: 100%;
     cursor: pointer;
     &.active {
@@ -26,50 +26,38 @@ export const NavLink = styled(Link)`
     }
 `;
 
-export const Bars = styled(FaBars)`
-    display: none;
-    color: #808080;
-    @media screen and (max-width: 768px) {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%, 75%);
-        font-size: 1.8rem;
-        cursor: pointer;
-    }
-`;
-
 export const NavMenu = styled.div`
     display: flex;
     align-items: center;
-    margin-right: -24px;
+    margin-right: -1vw;
     /* Second Nav */
-    /* margin-right: 24px; */
+    /* margin-right: 1vw; */
     /* Third Nav */
     /* width: 100vw;
     white-space: nowrap; */
     @media screen and (max-width: 768px) {
-        display: none;
+        font-size: 20%;
     }
 `;
 
 export const NavBtn = styled.nav`
     display: flex;
     align-items: center;
-    margin-right: 24px;
+    margin-right: 1vw;
+    margin-left: 1vw;
     /* Third Nav */
     /* justify-content: flex-end;
     width: 100vw; */
     @media screen and (max-width: 768px) {
-        display: none;
+        font-size: 20%;
     }
 `;
 
 export const NavBtnLink = styled(Link)`
-    border-radius: 4px;
+    font-size: 1.1vmax;
+    border-radius: 2px;
     background: #808080;
-    padding: 10px 22px;
+    padding: .5vw .25vw;
     color: #000000;
     outline: none;
     border: none;
@@ -77,7 +65,7 @@ export const NavBtnLink = styled(Link)`
     transition: all 0.2s ease-in-out;
     text-decoration: none;
     /* Second Nav */
-    margin-left: 24px;
+    margin-left: 1vw;
     &:hover {
         transition: all 0.2s ease-in-out;
         background: #fff;
