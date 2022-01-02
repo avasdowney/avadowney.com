@@ -7,7 +7,7 @@ const Education = () => {
                 <h2 class="rotateColor"> Education </h2>
                 <p>
                     <h3> University of Hartford </h3> 
-                        B.S. Computer Science, Minors in Mathematics and Data Science, Honors - 3.90/4.0 GPA {<br></br>}
+                        B.S. Computer Science, Minors in Mathematics and Data Science, Honors - 3.86/4.0 GPA {<br></br>}
                         Class of 2023 {<br></br>}{<br></br>}
                         Extracurriculars: {<br></br>}
                             - Society of Women Engineers {<br></br>}
