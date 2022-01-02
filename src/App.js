@@ -11,7 +11,7 @@ import Contact from './components/resumeContent/Contact';
   
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Switch>
         <Route path='/' exact component={About} />
