@@ -29,3 +29,14 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     #- run: npm test
+
+    # https://github.com/marketplace/actions/ssh-deploy
+    - name: Deploy to hostgator
+        uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          ARGS: "-rltgoDzvO --delete"
+          SOURCE: "build/"
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
+          TARGET: ${{ secrets.REMOTE_TARGET }}
