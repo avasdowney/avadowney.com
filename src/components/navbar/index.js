@@ -35,8 +35,8 @@ const Navbar = () => {
                 </NavLink>
                 </NavMenu>
                 <NavBtn>
-                    <NavBtn> <a href="https://github.com/avasdowney" target = "_blank"> <img src={GitHub} alt="GitHub" class="navImage"/> </a> </NavBtn>
-                    <NavBtn> <a href="https://www.linkedin.com/in/ava-downey-9b59931aa/" target="_blank"> <img src={LinkedIn} alt="LinkedIn" class="navImage"/> </a> </NavBtn>
+                    <NavBtn> <a href="https://github.com/avasdowney" target = "_blank" rel="noreferrer"> <img src={GitHub} alt="GitHub" class="navImage"/> </a> </NavBtn>
+                    <NavBtn> <a href="https://www.linkedin.com/in/ava-downey-9b59931aa/" target="_blank" rel="noreferrer"> <img src={LinkedIn} alt="LinkedIn" class="navImage"/> </a> </NavBtn>
                     <NavBtnLink to='/contact'>
                         Contact Me
                     </NavBtnLink>
