@@ -10,11 +10,11 @@ div.content {
 }
 
 h1 {
-    text-align: center;
     margin-top: 16vh;
     margin-bottom: 1vh;
     color: white;
     font-size: max(min(6vw, 100pt), 6vh);
+
 }
 
 @keyframes wheelHueColor {
@@ -63,4 +63,21 @@ a:-webkit-any-link {
     @media screen and (max-width: 768px) {
         width: 30%;
     }
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .75s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
