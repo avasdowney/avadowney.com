@@ -102,7 +102,7 @@ const About = () => {
                         <span class="wrap"></span>
                     </h1>
                     
-                    {<br></br>}{<br></br>}
+                    {<br></br>}{<br></br>}{<br></br>}{<br></br>}
                     <h2 class="rotateColor"> About </h2> 
                     <p>
                         I am a Junior honors student majoring in Computer Science, and minoring in both Mathematics and 
