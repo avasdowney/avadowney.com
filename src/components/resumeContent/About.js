@@ -30,6 +30,10 @@ const txt = {
     marginTop: '3vh'
 };
 
+const headers = {
+    marginTop: '15vw'
+}
+
 var mobile = require('is-mobile');
 
 var TxtType = function(el, toRotate, period) {
@@ -102,8 +106,8 @@ const About = () => {
                         <span class="wrap"></span>
                     </h1>
                     
-                    {<br></br>}{<br></br>}{<br></br>}{<br></br>}{<br></br>}{<br></br>}
-                    <h2 class="rotateColor"> About </h2> 
+                    {<br></br>}
+                    <h2 class="rotateColor" style={headers}> About </h2> 
                     <p>
                         I am a Junior honors student majoring in Computer Science, and minoring in both Mathematics and 
                         Data Science at the University of Hartford. I have been coding since I was little, starting off 
