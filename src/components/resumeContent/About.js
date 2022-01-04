@@ -1,9 +1,12 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, MoveIn, MoveOut, Sticky } from "react-scroll-motion";
+// unused vars for animation: Move, StickyIn, ZoomIn
 
-import "../../css/styles.css"
+import "../../css/styles.css";
 
-import headshot from '../../images/ava_face.png'
+import headshot from '../../images/ava_face.png';
 
+// CSS Styles
 const imgStyle = {
     display: 'inline-flex',
     width: '25%',
@@ -26,16 +29,15 @@ const mobileImgStyle = {
     display: 'flex'
 };
 
-const txt = {
-    marginTop: '3vh'
-};
-
-const headers = {
-    marginTop: '15vw'
-}
-
+// check mobile
 var mobile = require('is-mobile');
 
+// animations
+const FadeUp = batch(FadeIn(), MoveIn(), Sticky());
+const AnimateTitle = batch(Fade(0, 1), MoveOut());
+const AnimateImg = batch(Fade(), MoveOut(-100, 0));
+
+// typing animation with rotating text
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -77,6 +79,7 @@ TxtType.prototype.tick = function() {
     }, delta);
 };
 
+// stuff that gets rendered out
 const About = () => {
     useEffect(()=>{
         var elements = document.getElementsByClassName('typewrite');
@@ -98,27 +101,37 @@ const About = () => {
         return (
             <header>
                 <div class = "content">
-                    {<br></br>}
-                    <img src={headshot} alt="headshot" class="fade-in" style={imgStyle}/>
-                    {<br></br>}
-                    <h1 class="typewrite rotateColor" data-wait="2000"
-                        data-phrase='[ "Hi, I&#39;m Ava.", "I am a student.", "I am an aspiring software engineer." ]'>
-                        <span class="wrap"></span>
-                    </h1>
-                    
-                    {<br></br>}
-                    <h2 class="rotateColor" style={headers}> About </h2> 
-                    <p>
-                        I am a Junior honors student majoring in Computer Science, and minoring in both Mathematics and 
-                        Data Science at the University of Hartford. I have been coding since I was little, starting off 
-                        in Scratch, then moving onto Python and Java. I now have experience in many more languages such 
-                        as Clojure, and JavaScript, as well as many tools and frameworks including Git, Azure DevOps, 
-                        JupyterNotebook, JUnit, TravisCI and more. I am currently working on several projects both for 
-                        myself, and collaborative projects with my clubs including updating this website, and building 
-                        Discord bots, just to name a few! I am always looking for new projects to throw myself into to 
-                        learn something new, whether it be new coding projects, learning cool things about space, or 
-                        drawing.
-                    </p>
+                    {<br></br>}                     
+                    <ScrollContainer>
+                        <ScrollPage page={0}> 
+                            <Animator animation={AnimateImg}>
+                                <img src={headshot} alt="headshot" style={imgStyle}/>
+                            </Animator>
+                            <Animator animation={AnimateTitle}>
+                                {<br></br>}
+                                <h1 class="typewrite rotateColor" data-wait="2000"
+                                    data-phrase='[ "Hi, I&#39;m Ava.", "I am a student.", "I am an aspiring software engineer." ]'>
+                                    <span class="wrap"></span>
+                                </h1>
+                            </Animator>
+                        </ScrollPage>
+                        <ScrollPage page={1}>
+                            <Animator animation={FadeUp}>
+                                <h2 class="rotateColor"> About </h2>
+                                <p>
+                                    I am a Junior honors student majoring in Computer Science, and minoring in both Mathematics and 
+                                    Data Science at the University of Hartford. I have been coding since I was little, starting off 
+                                    in Scratch, then moving onto Python and Java. I now have experience in many more languages such 
+                                    as Clojure, and JavaScript, as well as many tools and frameworks including Git, Azure DevOps, 
+                                    JupyterNotebook, JUnit, TravisCI and more. I am currently working on several projects both for 
+                                    myself, and collaborative projects with my clubs including updating this website, and building 
+                                    Discord bots, just to name a few! I am always looking for new projects to throw myself into to 
+                                    learn something new, whether it be new coding projects, learning cool things about space, or 
+                                    drawing.
+                                </p>
+                            </Animator>
+                        </ScrollPage>
+                    </ScrollContainer>
                 </div>
             </header>
         )
@@ -130,7 +143,7 @@ const About = () => {
                     {<br></br>}
                     <img src={headshot} alt="headshot" class="fade-in" style={mobileImgStyle}/>
                     <h1 class="rotateColor" style={mobileTxtStyle}> Hi, I&#39;m Ava. </h1>
-                    <h2 class="rotateColor" style={txt}> About </h2> 
+                    <h2 class="rotateColor"> About </h2> 
                     <p>
                         I am a Junior honors student majoring in Computer Science, and minoring in both Mathematics and 
                         Data Science at the University of Hartford. I have been coding since I was little, starting off 
