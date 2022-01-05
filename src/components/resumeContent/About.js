@@ -101,7 +101,7 @@ const About = () => {
         return (
             <header>
                 <div class = "content">
-                    {<br></br>}                     
+                    {<br></br>}{<br></br>}                     
                     <ScrollContainer>
                         <ScrollPage page={0}> 
                             <Animator animation={AnimateImg}>
