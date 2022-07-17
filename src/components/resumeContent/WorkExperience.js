@@ -6,6 +6,10 @@ const WorkExperience = () => {
             <div class = "content"> 
                 <h2 class="rotateColor"> Work Experience </h2>
                 <p>
+                    <h3> Technology Intern - Travelers </h3>
+                        Jun. 2022 - Present {<br></br>}
+                        I am assisting migration into Snowflake from Microsoft SQL by validating data using 
+                        Python. I also assist with report testing in end stages of application development.
                     <h3> Software Engineering Intern - Chevron </h3>
                         Jun. 2021 - Aug. 2021 {<br></br>}
                         I worked on several projects such as debugging and adding features to CI/CD pipelines
