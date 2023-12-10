@@ -2,12 +2,10 @@ import React from 'react';
 import Navbar from './components/navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import About from './components/resumeContent/About';
-import Education from './components/resumeContent/Education';
-import WorkExperience from './components/resumeContent/WorkExperience';
-import OtherExperience from './components/resumeContent/OtherExperience';
-import Projects from './components/resumeContent/Projects';
-import Contact from './components/resumeContent/Contact';
+import About from './components/content/About';
+import Resume from './components/content/Resume';
+import Projects from './components/content/Projects';
+import Contact from './components/content/Contact';
 
 function reload() {
   window.location.reload(false);
@@ -20,9 +18,7 @@ function App() {
       <Switch>
         <Route path='/' exact component={About} onClick={reload} />
         <Route path='/about' component={About} />
-        <Route path='/education' component={Education} />
-        <Route path='/work-experience' component={WorkExperience} />
-        <Route path='/other-experience' component={OtherExperience} />
+        <Route path='/resume' component={Resume} />
         <Route path='/projects' component={Projects} />
         <Route path='/contact' component={Contact} />
       </Switch>

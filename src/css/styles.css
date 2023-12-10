@@ -1,6 +1,5 @@
 body {
-    background-color: #3d3d40;
-    background-image: url(../images/simple_space_background.jpeg);
+    background-color: #101010;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
@@ -18,20 +17,19 @@ h1 {
 }
 
 @keyframes wheelHueColor {
-    from, to { color: #ffadad; }
-    12.5%      { color: #ffd6a5; }
-    25%      { color: #fdffb6; }
-    37.5%      { color: #caffbf; }
-    50%      { color: #9bf6ff; }
-    62.5%      { color: #a0c4ff; }
-    85%      { color: #bdb2ff; }
-    97.5%      { color: #ffc6ff; }
+    from, to { color: #ff6961; }
+    12.5%      { color: #ffb480; }
+    25%      { color: #f8f38d; }
+    37.5%      { color: #42d6a4; }
+    50%      { color: #08cad1; }
+    62.5%      { color: #59adf6; }
+    85%      { color: #9d94ff; }
+    97.5%      { color: #c780e8; }
 }
 
 .rotateColor {
     color: #ffffff;
-    animation: wheelHueColor 10s infinite;
-    transform: translateY(-50%);
+    animation: wheelHueColor 30s infinite;
 }
 
 h2 {

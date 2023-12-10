@@ -8,7 +8,7 @@ const Contact = () => {
                 <p>
                     Ava Downey {<br></br>}
                     avasdowney@gmail.com {<br></br>}
-                    Leominster, MA 01453 {<br></br>}
+                    Bloomfield, CT 06002 {<br></br>}
                 </p>
             </div>
         </header>

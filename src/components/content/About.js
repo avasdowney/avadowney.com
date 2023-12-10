@@ -4,7 +4,7 @@ import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, MoveIn, Mov
 
 import "../../css/styles.css";
 
-import headshot from '../../images/ava_face.png';
+import dinosaurs from '../../images/suited_dinosaurs.png';
 
 // CSS Styles
 const imgStyle = {
@@ -105,12 +105,12 @@ const About = () => {
                     <ScrollContainer>
                         <ScrollPage page={0}> 
                             <Animator animation={AnimateImg}>
-                                <img src={headshot} alt="headshot" style={imgStyle}/>
+                                <img src={dinosaurs} alt="headshot" style={imgStyle}/>
                             </Animator>
                             <Animator animation={AnimateTitle}>
                                 {<br></br>}
                                 <h1 class="typewrite rotateColor" data-wait="2000"
-                                    data-phrase='[ "Hi, I&#39;m Ava.", "I am a student.", "I am an aspiring software engineer." ]'>
+                                    data-phrase='[ "Hi, I&#39;m Ava.", "Welcome to my website!", "Scroll to see what I am working on." ]'>
                                     <span class="wrap"></span>
                                 </h1>
                             </Animator>
@@ -119,15 +119,10 @@ const About = () => {
                             <Animator animation={FadeUp}>
                                 <h2 class="rotateColor"> About </h2>
                                 <p>
-                                    I am a Junior honors student majoring in Computer Science, and minoring in both Mathematics and 
-                                    Data Science at the University of Hartford. I have been coding since I was little, starting off 
-                                    in Scratch, then moving onto Python and Java. I now have experience in many more languages such 
-                                    as Clojure, and JavaScript, as well as many tools and frameworks including Git, Azure DevOps, 
-                                    JupyterNotebook, JUnit, TravisCI and more. I am currently working on several projects both for 
-                                    myself, and collaborative projects with my clubs including updating this website, and building 
-                                    Discord bots, just to name a few! I am always looking for new projects to throw myself into to 
-                                    learn something new, whether it be new coding projects, learning cool things about space, or 
-                                    drawing.
+                                    I am a recent graduate of the University of Hartford with a B.S. in Computer Science, and a minor
+                                    in Data Science. I now work as a Data Engineer at Travelers! I have experience with languages such 
+                                    as Python, Java, Clojure, and JavaScript, as well as many tools and frameworks including Git, 
+                                    AWS, Terraform, and more.
                                 </p>
                             </Animator>
                         </ScrollPage>
@@ -141,19 +136,14 @@ const About = () => {
             <header>
                 <div class = "content">
                     {<br></br>}
-                    <img src={headshot} alt="headshot" class="fade-in" style={mobileImgStyle}/>
+                    <img src={dinosaurs} alt="headshot" class="fade-in" style={mobileImgStyle}/>
                     <h1 class="rotateColor" style={mobileTxtStyle}> Hi, I&#39;m Ava. </h1>
                     <h2 class="rotateColor"> About </h2> 
                     <p>
-                        I am a Junior honors student majoring in Computer Science, and minoring in both Mathematics and 
-                        Data Science at the University of Hartford. I have been coding since I was little, starting off 
-                        in Scratch, then moving onto Python and Java. I now have experience in many more languages such 
-                        as Clojure, and JavaScript, as well as many tools and frameworks including Git, Azure DevOps, 
-                        JupyterNotebook, JUnit, TravisCI and more. I am currently working on several projects both for 
-                        myself, and collaborative projects with my clubs including updating this website, and building 
-                        Discord bots, just to name a few! I am always looking for new projects to throw myself into to 
-                        learn something new, whether it be new coding projects, learning cool things about space, or 
-                        drawing.
+                        I am a recent graduate of the University of Hartford with a B.S. in Computer Science, and a minor
+                        in Data Science. I now work as a Data Engineer at Travelers! I have experience with languages such 
+                        as Python, Java, Clojure, and JavaScript, as well as many tools and frameworks including Git, 
+                        AWS, Terraform, and more.
                     </p>
                 </div>
             </header>
