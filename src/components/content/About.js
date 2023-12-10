@@ -4,7 +4,7 @@ import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, MoveIn, Mov
 
 import "../../css/styles.css";
 
-import dinosaurs from '../../images/suited_dinosaurs.png';
+import dinosaurs from '../../images/ava_grad.jpg';
 
 // CSS Styles
 const imgStyle = {
@@ -13,7 +13,7 @@ const imgStyle = {
     margin: '0 auto',
     marginRight: '5vw',
     float: 'left',
-    borderRadius: '1px'
+    borderRadius: '8px'
     
 };
 
@@ -110,7 +110,7 @@ const About = () => {
                             <Animator animation={AnimateTitle}>
                                 {<br></br>}
                                 <h1 class="typewrite rotateColor" data-wait="2000"
-                                    data-phrase='[ "Hi, I&#39;m Ava.", "Welcome to my website!", "Scroll to see what I am working on." ]'>
+                                    data-phrase='[ "Hi, I&#39;m Ava.", "Welcome to my website!", "Scroll to learn more about me!" ]'>
                                     <span class="wrap"></span>
                                 </h1>
                             </Animator>
@@ -120,7 +120,8 @@ const About = () => {
                                 <h2 class="rotateColor"> About </h2>
                                 <p>
                                     I am a recent graduate of the University of Hartford with a B.S. in Computer Science, and a minor
-                                    in Data Science. I now work as a Data Engineer at Travelers! I have experience with languages such 
+                                    in Data Science. I now work as a Data Engineer at Travelers as a part of the Business Insights 
+                                    and Analytics Leadership Development Program, or BI&A LDP! I have experience with languages such 
                                     as Python, Java, Clojure, and JavaScript, as well as many tools and frameworks including Git, 
                                     AWS, Terraform, and more.
                                 </p>

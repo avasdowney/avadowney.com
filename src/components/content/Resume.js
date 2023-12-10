@@ -75,7 +75,7 @@ const Resume = () => {
                         fairness issues. The experimental results demonstrate an increase in fairness across all of the 
                         metrics for all of the protected classes bringing more trust into the predictive policing system 
                         by reducing the unfair policing of people. {<br></br>}{<br></br>}
-                        Check out the full paper <a href="https://journals.flvc.org/FLAIRS/article/view/133088" target='_blank' rel='noreferrer'> here.</a>
+                        Check out the full paper <a href="https://journals.flvc.org/FLAIRS/article/view/133088" target='_blank' rel='noreferrer'> here</a>.
                 </p>
             </div>
 
@@ -87,8 +87,8 @@ const Resume = () => {
                         Competed in the <a href="https://www.make48.com/post/meet-your-hartford-teams" target='_blank' rel='noreferrer'> Make48 </a>
                         Competition in Hartford, CT to represent the University of Hartford Honors program. I worked 
                         with my team over 48 hours to create a prototype, marketing plan, and sales sheet for our 
-                        invention following the prompt "outdoor lifestyle." This competition will be aired in January, 
-                        2022 on PBS, Amazon Prime Video, and Tubi.
+                        invention following the prompt "outdoor lifestyle." his competition was aired in January, 
+                        2022 on PBS, Amazon Prime Video, and Tubi. It can also be watched <a href="https://www.youtube.com/watch?v=5VP9kk-IpAw" target='_blank' rel='noreferrer'> here</a>.
                     <h3> President, oSTEM  </h3>
                         May 2021 - May 2023 {<br></br>}
                         Out in STEM (oSTEM) works on creating an inclusive space on campus for LGBT people and their 
@@ -100,7 +100,7 @@ const Resume = () => {
                         I also helped with the clubs founding as it was only brought to my campus in September of 
                         2020, and was able to help recruit over 30 new members to the club. 
                     <h3> Student Ambassador, University of Hartford </h3>
-                        Jan. 2021 - Present {<br></br>}
+                        Jan. 2021 - May 2023 {<br></br>}
                         I am a student ambassador for the University of Hartford College of Arts and Sciences. 
                         I attend events where prospective and new students will be able to ask me questions about 
                         my experience. I have taken over the official University of Hartford Instagram story to 
