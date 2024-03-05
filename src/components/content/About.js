@@ -4,7 +4,7 @@ import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, MoveIn, Mov
 
 import "../../css/styles.css";
 
-import dinosaurs from '../../images/ava_grad.jpg';
+import pic from '../../images/ava_bitmoji.png';
 
 // CSS Styles
 const imgStyle = {
@@ -13,8 +13,8 @@ const imgStyle = {
     margin: '0 auto',
     marginRight: '5vw',
     float: 'left',
-    borderRadius: '8px'
-    
+    borderRadius: '8px',
+    // borderBottom: 'dotted #808080'  
 };
 
 const mobileTxtStyle = {
@@ -105,7 +105,7 @@ const About = () => {
                     <ScrollContainer>
                         <ScrollPage page={0}> 
                             <Animator animation={AnimateImg}>
-                                <img src={dinosaurs} alt="headshot" style={imgStyle}/>
+                                <img src={pic} alt="headshot" style={imgStyle}/>
                             </Animator>
                             <Animator animation={AnimateTitle}>
                                 {<br></br>}
@@ -137,7 +137,7 @@ const About = () => {
             <header>
                 <div class = "content">
                     {<br></br>}
-                    <img src={dinosaurs} alt="headshot" class="fade-in" style={mobileImgStyle}/>
+                    <img src={pic} alt="headshot" class="fade-in" style={mobileImgStyle}/>
                     <h1 class="rotateColor" style={mobileTxtStyle}> Hi, I&#39;m Ava. </h1>
                     <h2 class="rotateColor"> About </h2> 
                     <p>
