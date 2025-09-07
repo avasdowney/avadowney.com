@@ -6,12 +6,19 @@ const Resume = () => {
             <div class = "content"> 
                 <h2 class="rotateColor"> Work Experience </h2>
                 <p>
-                    <h3> Data Engineer - Travelers </h3>
-                        Jun. 2023 - Present {<br></br>}
-                        I am curently working on automating manual workflows using Python, AWS, Terraform, and 
-                        Docker, as well as assisting with the cloud migration of data from SQL Server to 
-                        Snowflake.
-                    <h3> Technology Intern - Travelers </h3>
+                    <h3> Data Engineer, Senior Consultant BI&A LDP - Travelers </h3>
+                        Oct. 2024 - Present {<br></br>}
+                        I am working on several Gen AI RAG applications for insurance agents and underwriters
+                        within Bond and Specialty Insurance. I am also a part of the BI&A LDP at Travelers
+                        allowing me to strengthen my leadership skills through opportunities such as my role
+                        as a co-lead of Emerging Talent Program Networking Committee.
+                    <h3> Data Engineer, Consultant BI&A LDP - Travelers </h3>
+                        Jun. 2023 - Oct. 2024 {<br></br>}
+                        I worked on automating manual workflows using Python, AWS (Lambda, Eventbridge, ECR,
+                        API Gateway, SNS), Terraform, Docker, and Snowflake. I was also a part of the Business
+                        Insights and Analytics Leadership Development Program at Travelers, allowing me to grow
+                        both my technical and leadership expertise under mentors of the program.
+                    <h3> Technology Intern, TLDP - Travelers </h3>
                         Jun. 2022 - Aug. 2022 {<br></br>}
                         I worked with Python to compare Microsoft SQL Server and Snowflake databases to assist 
                         with cloud migration, as well as assisted with report testing in the end stages of 
@@ -76,6 +83,18 @@ const Resume = () => {
                         metrics for all of the protected classes bringing more trust into the predictive policing system 
                         by reducing the unfair policing of people. {<br></br>}{<br></br>}
                         Check out the full paper <a href="https://journals.flvc.org/FLAIRS/article/view/133088" target='_blank' rel='noreferrer'> here</a>.
+                    <h3>Predictive Policing: A Fairness-aware Approach</h3>
+                        As Artificial Intelligence (AI) systems become increasingly embedded in our daily lives, it is of
+                        utmost importance to ensure that they are both fair and reliable. Regrettably, this is not always
+                        the case for predictive policing systems, as evidence shows biases based on age, race, and sex,
+                        leading to wrongful identifications of individuals as potential criminals. Given the existing
+                        criticism of the system's unjust treatment of minority groups, it becomes essential to address and
+                        mitigate this concerning trend. This study delved into the infusion of domain knowledge in the
+                        predictive policing system, aiming to minimize prevailing fairness issues. The experimental results
+                        indicate a considerable increase in fairness across all metrics for all protected classes, thus
+                        fostering greater trust in the predictive policing system by reducing the unfair treatment of
+                        individuals. {<br></br>}{<br></br>}
+                        Check out the full paper <a href="https://www.worldscientific.com/doi/abs/10.1142/S0218213024600054" target='_blank' rel='noreferrer'> here</a>.
                 </p>
             </div>
 
