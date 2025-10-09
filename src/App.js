@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/navbar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import About from './components/content/About';
 import Resume from './components/content/Resume';
@@ -15,13 +15,13 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Navbar />
-      <Switch>
-        <Route path='/' exact component={About} onClick={reload} />
-        <Route path='/about' component={About} />
-        <Route path='/resume' component={Resume} />
-        <Route path='/projects' component={Projects} />
-        <Route path='/contact' component={Contact} />
-      </Switch>
+      <Routes>
+        <Route path='/' element={<About />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/resume' element={<Resume />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
     </Router>
   );
 }
