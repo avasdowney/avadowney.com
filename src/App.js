@@ -7,10 +7,6 @@ import Resume from './components/content/Resume';
 import Projects from './components/content/Projects';
 import Contact from './components/content/Contact';
 
-function reload() {
-  window.location.reload(false);
-}
-
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
