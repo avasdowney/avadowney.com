@@ -21,7 +21,7 @@ const nameStyle = {
     fontSize: '4rem',
     fontWeight: 700,
     color: '#fff',
-    marginBottom: '1.5rem',
+    marginBottom: '.5rem',
     letterSpacing: '2px',
 };
 const subtitleStyle = {
@@ -56,70 +56,80 @@ const scrollBtnStyle = {
 };
 
 const arrowStyle = {
-  color: '#fff',
+    color: '#fff',
 };
 
 const bioSectionStyle = {
-  minHeight: '100vh',
-  height: '100vh',
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-  justifyContent: 'center',
-  textAlign: 'center',
-  margin: 0,
-  borderRadius: 0,
-  boxShadow: 'none',
-  width: '100vw',
-  maxWidth: '100vw',
-  padding: 0,
-  position: 'relative',
-  top: 0,
-  left: 0,
-  zIndex: 2,
+    minHeight: '100vh',
+    height: '100vh',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'center',
+    margin: 0,
+    borderRadius: 0,
+    boxShadow: 'none',
+    width: '100vw',
+    maxWidth: '100vw',
+    padding: 0,
+    position: 'relative',
+    top: 0,
+    left: 0,
+    zIndex: 2,
 };
 
 const About = () => {
-  const bioRef = React.useRef(null);
-  const handleScroll = () => {
-    if (bioRef.current) {
-      bioRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-  return (
-    <>
-      <div style={aboutContainer}>
-        <img src={pic} alt="Ava Bitmoji" style={{
-          height: '30vh',
-          borderRadius: '50%',
-          objectFit: 'cover',
-          marginBottom: '.5rem',
-          boxShadow: '0 2px 16px rgba(0,0,0,0.18)'
-        }} />
-        <h1 class="rotateColor" style={nameStyle}>Ava Downey</h1>
-        <div style={subtitleStyle}>Data Engineer&nbsp;|&nbsp;Generative AI</div>
-        <div style={iconRow}>
-          <a href="https://github.com/avasdowney" target="_blank" rel="noreferrer">
-            <img src={GitHub} alt="GitHub" style={iconStyle} />
-          </a>
-          <a href="https://www.linkedin.com/in/ava-downey-9b59931aa/" target="_blank" rel="noreferrer">
-            <img src={LinkedIn} alt="LinkedIn" style={iconStyle} />
-          </a>
-          <a href="mailto:avasdowney@gmail.com">
-            <img src={Email} alt="Email" style={iconStyle} />
-          </a>
-        </div>
-        <button style={scrollBtnStyle} onClick={handleScroll} aria-label="Scroll for more">
-          <img src={DownArrow} alt="▼" style={arrowStyle} />
-        </button>
-      </div>
-      <section ref={bioRef} style={bioSectionStyle}>
-  <div style={{maxWidth: '600px', margin: '0 auto', color: '#e0e0e0', fontSize: '1.2rem', lineHeight: 1.7, padding: '2rem'}}>
-          I am a recent graduate of the University of Hartford with a B.S. in Computer Science, and a minor in Data Science. I now work as a Data Engineer at Travelers! I have experience with languages such as Python, Java, Clojure, and JavaScript, as well as many tools and frameworks including Git, AWS, Terraform, and more.
-        </div>
-      </section>
-    </>
-  );
+    const bioRef = React.useRef(null);
+    const handleScroll = () => {
+        if (bioRef.current) {
+            bioRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+    return (
+        <>
+            <div style={aboutContainer}>
+                <img src={pic} alt="Ava Bitmoji" style={{
+                    height: '30vh',
+                    borderRadius: '50%',
+                    objectFit: 'cover',
+                    marginBottom: '3rem',
+                    boxShadow: '0 2px 16px rgba(0,0,0,0.18)'
+                }} />
+                <h1 class="rotateColor" style={{
+                    ...nameStyle,
+                    marginTop: '0.2rem',
+                }}>Ava Downey</h1>
+                <div style={subtitleStyle}>Data Engineer&nbsp;|&nbsp;Generative AI</div>
+                <div style={iconRow}>
+                    <a href="https://github.com/avasdowney" target="_blank" rel="noreferrer">
+                        <img src={GitHub} alt="GitHub" style={iconStyle} />
+                    </a>
+                    <a href="https://www.linkedin.com/in/ava-downey-9b59931aa/" target="_blank" rel="noreferrer">
+                        <img src={LinkedIn} alt="LinkedIn" style={iconStyle} />
+                    </a>
+                    <a href="mailto:avasdowney@gmail.com">
+                        <img src={Email} alt="Email" style={iconStyle} />
+                    </a>
+                </div>
+                <button style={scrollBtnStyle} onClick={handleScroll} aria-label="Scroll for more">
+                    <img src={DownArrow} alt="▼" style={arrowStyle} />
+                </button>
+            </div>
+            <section ref={bioRef} style={bioSectionStyle}>
+                <div style={{ maxWidth: '600px', margin: '0 auto', color: '#e0e0e0', fontSize: '1.2rem', lineHeight: 1.7, padding: '2rem' }}>
+                    <p>
+                        As a Data Engineer at Travelers Insurance, I have built several innovative Generative AI solutions from end to end, including Travelers'
+                        first and only external Gen AI application. My dedication to innovation recently earned me first place in a company-wide competition for
+                        an agentic reasoning model where I was able to work with cross-functional teams to improve our business processes. I've also been a
+                        champion for internal Gen AI adoption, leading workshops to introduce tools such as GitHub Copilot to my line of business while minimizing
+                        tech debt. My professional passion is Generative AI, while my downtime is dedicated to hitting the hiking trails, diving into a video game
+                        with friends, or drawing. 
+                    </p>
+                </div>
+            </section>
+        </>
+    );
 };
 
 export default About;

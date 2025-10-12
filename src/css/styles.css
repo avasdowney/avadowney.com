@@ -14,8 +14,6 @@ h1 {
     margin-top: 16vh;
     margin-bottom: 1vh;
     color: white;
-    /* font-size: max(min(6vw, 100pt), 6vh); */
-
 }
 
 @keyframes wheelHueColor {
@@ -35,18 +33,15 @@ h1 {
 }
 
 h2 {
-    /* font-size: max(min(2vw, 20pt), 2vh); */
     color: #ffffff;
     margin-top: 8vh;
 }
 
 h3 {
-    /* font-size: max(min(1.5vw, 18pt), 1.5vh); */
     color: #ffffff;
 }
 
 p {
-    /* font-size: max(min(1.3vw, 16pt), 1.3vh); */
     color: #808080;
     margin-top: 1vh;
 }

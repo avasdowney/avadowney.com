@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 // come back to padding
 export const Nav = styled.nav`
-    background: #101010;
+    background: #00000026;
     height: 10vh;
     display: flex;
     justify-content: space-between;
@@ -50,9 +50,9 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(Link)`
     border-radius: 2px;
-    background: #808080;
-    padding: .5vw .25vw;
-    color: #000000;
+    background: #fff;
+    padding: .5vw .5vw;
+    color: #808080;
     outline: none;
     border: none;
     cursor: pointer;
@@ -62,7 +62,7 @@ export const NavBtnLink = styled(Link)`
     margin-left: 1vw;
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #fff;
-        color: #808080;
+        background: #202020b3;
+        color: #959595ff;
     }
 `;
