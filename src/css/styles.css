@@ -1,6 +1,8 @@
 body {
     background-color: #101010;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 div.content {
@@ -12,8 +14,6 @@ h1 {
     margin-top: 16vh;
     margin-bottom: 1vh;
     color: white;
-    font-size: max(min(6vw, 100pt), 6vh);
-
 }
 
 @keyframes wheelHueColor {
@@ -33,18 +33,14 @@ h1 {
 }
 
 h2 {
-    font-size: max(min(2vw, 20pt), 2vh);
     color: #ffffff;
-    margin-top: 8vh;
 }
 
 h3 {
-    font-size: max(min(1.5vw, 18pt), 1.5vh);
     color: #ffffff;
 }
 
 p {
-    font-size: max(min(1.3vw, 16pt), 1.3vh);
     color: #808080;
     margin-top: 1vh;
 }
@@ -62,3 +58,22 @@ a:-webkit-any-link {
         width: 30%;
     }
 }
+
+/* Resume grouping styles */
+.company {
+    margin: 1.5rem 0 2rem 0;
+}
+.company > h3 {
+    color: #ffffff;
+    margin: 0 0 0.75rem 0;
+    font-size: 1.4rem;
+}
+.roles {
+    border-left: 3px solid #30363d;
+    margin-left: 0.5rem;
+    padding-left: 1rem;
+}
+.role { margin: 0 0 1.25rem 0; }
+.role-title { color: #e0e0e0; font-weight: 600; }
+.role-dates { color: #9aa0a6; font-size: 0.95rem; margin: 0.15rem 0 0.35rem 0; }
+.role-desc { color: #b1b1b1; line-height: 1.6; }

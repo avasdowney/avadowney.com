@@ -5,45 +5,45 @@ const Resume = () => {
         <header>
             <div class = "content"> 
                 <h2 class="rotateColor"> Work Experience </h2>
-                <p>
-                    <h3> Data Engineer, Senior Consultant BI&A LDP - Travelers </h3>
-                        Oct. 2024 - Present {<br></br>}
-                        I am working on several Gen AI RAG applications for insurance agents and underwriters
-                        within Bond and Specialty Insurance. I am also a part of the BI&A LDP at Travelers
-                        allowing me to strengthen my leadership skills through opportunities such as my role
-                        as a co-lead of Emerging Talent Program Networking Committee.
-                    <h3> Data Engineer, Consultant BI&A LDP - Travelers </h3>
-                        Jun. 2023 - Oct. 2024 {<br></br>}
-                        I worked on automating manual workflows using Python, AWS (Lambda, Eventbridge, ECR,
-                        API Gateway, SNS), Terraform, Docker, and Snowflake. I was also a part of the Business
-                        Insights and Analytics Leadership Development Program at Travelers, allowing me to grow
-                        both my technical and leadership expertise under mentors of the program.
-                    <h3> Technology Intern, TLDP - Travelers </h3>
-                        Jun. 2022 - Aug. 2022 {<br></br>}
-                        I worked with Python to compare Microsoft SQL Server and Snowflake databases to assist 
-                        with cloud migration, as well as assisted with report testing in the end stages of 
-                        application development.
-                    <h3> Software Engineering Intern - Chevron </h3>
-                        Jun. 2021 - Aug. 2021 {<br></br>}
-                        I worked on several projects such as debugging and adding features to CI/CD pipelines
-                        using Azure DevOps, as well as creating a Power BI dashboard for my Scrum team.
-                    {/* <h3> CS220P Teaching Asisstant - University of Hartford </h3>
-                        Jan. 2021 - May 2021 {<br></br>}
-                        I was a teaching assistant for a Data Structures course under Dr. Sheikh Islam.
-                        I attended all classes and helped students who were struggling with code. I also held 
-                        office hours outside of class where students could reach me to get clarification and 
-                        help with material and code. I also checked student work for plagiarism and 
-                        functionality.
-                    <h3> Tutor - Kumon North America, Inc. </h3>
-                        Oct. 2018 - Sep. 2020 {<br></br>}
-                        I worked one on one with kids ages three to fifteen on their math 
-                        and reading skills. Due to Covid-19, I transferred to working online as head tutor. 
-                        When I was not working directly with a student, I graded worksheets. I also 
-                        assigned worksheets based on each students math and reading competency level.
-                    <h3> Farm Hand - Gove Farm </h3>
-                        Jul. 2017 - Oct. 2018 {<br></br>}
-                        I ran the cash register, as well as picked, washed, and graded produce.  */}
-                </p>
+                <div class="company">
+                    <h3>Travelers</h3>
+                    <div class="roles">
+                        <div class="role">
+                            <div class="role-title">Data Engineer, Senior Consultant — BI&amp;A LDP</div>
+                            <div class="role-dates">Oct. 2024 – Present</div>
+                            <div class="role-desc">
+                                I am working on several Gen AI RAG applications for insurance agents and underwriters within Bond and Specialty Insurance. I am also a part of the BI&amp;A LDP at Travelers, allowing me to strengthen my leadership skills through opportunities such as my role as a co-lead of Emerging Talent Program Networking Committee.
+                            </div>
+                        </div>
+                        <div class="role">
+                            <div class="role-title">Data Engineer, Consultant — BI&amp;A LDP</div>
+                            <div class="role-dates">Jun. 2023 – Oct. 2024</div>
+                            <div class="role-desc">
+                                I worked on automating manual workflows using Python, AWS (Lambda, EventBridge, ECR, API Gateway, SNS), Terraform, Docker, and Snowflake. I was also a part of the Business Insights and Analytics Leadership Development Program at Travelers, allowing me to grow both my technical and leadership expertise under mentors of the program.
+                            </div>
+                        </div>
+                        <div class="role">
+                            <div class="role-title">Technology Intern — TLDP</div>
+                            <div class="role-dates">Jun. 2022 – Aug. 2022</div>
+                            <div class="role-desc">
+                                I worked with Python to compare Microsoft SQL Server and Snowflake databases to assist with cloud migration, as well as assisted with report testing in the end stages of application development.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="company">
+                    <h3>Chevron</h3>
+                    <div class="roles">
+                        <div class="role">
+                            <div class="role-title">Software Engineering Intern</div>
+                            <div class="role-dates">Jun. 2021 – Aug. 2021</div>
+                            <div class="role-desc">
+                                I worked on several projects such as debugging and adding features to CI/CD pipelines using Azure DevOps, as well as creating a Power BI dashboard for my Scrum team.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* Additional roles removed for brevity but can be re-added as needed */}
             </div>
 
             <div class = "content">
