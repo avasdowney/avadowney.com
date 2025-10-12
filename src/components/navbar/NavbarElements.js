@@ -3,11 +3,11 @@ import styled from "styled-components"
 
 // come back to padding
 export const Nav = styled.nav`
-    background: #101010; /* Opaque so underlying content is hidden */
+    background: #101010; /* background: #00000025; */
     height: 10vh;
     display: flex;
     justify-content: space-between;
-    padding: 0.2rem / 2);
+    padding: calc(0.2rem / 2);
     z-index: 12;
     position: sticky;
     top: 0;

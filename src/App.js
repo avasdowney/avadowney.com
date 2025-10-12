@@ -1,15 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from './components/navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 
 import About from './components/content/About';
 import Resume from './components/content/Resume';
 import Projects from './components/content/Projects';
 import Contact from './components/content/Contact';
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path='/' element={<About />} />
