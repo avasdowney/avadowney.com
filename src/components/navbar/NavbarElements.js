@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 // come back to padding
 export const Nav = styled.nav`
-    background: #00000026;
+    background: #101010; /* Opaque so underlying content is hidden */
     height: 10vh;
     display: flex;
     justify-content: space-between;
