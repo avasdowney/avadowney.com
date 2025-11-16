@@ -104,8 +104,8 @@ const Projects = () => {
                 { src: salad_spinner, alt: 'Salad Spinner 3D Model' },
             ],
             links: [
+                { text: 'View Salad Spinner Model', url: 'https://www.thingiverse.com/thing:7201859'},
                 { text: 'View Code', url: 'https://github.com/avasdowney/solidifai' },
-                { text: 'View Salad Spinner Model', url: 'https://www.thingiverse.com/thing:7201859'}
             ],
         },
         {
