@@ -97,15 +97,15 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
-            title: 'Solidifai',
+            title: 'SolidifAI',
             description: 'A project inspired by my need to print a fully functional mini salad spinner (which surprisingly did not already exist) and my lack of 3D modeling expertise. This project uses generative AI to create ready-to-print 3D models from natural language prompts.',
             tags: ['Python', 'Gen AI', 'Bedrock', 'Prompt Engineering', 'FastAPI', 'In Progress'],
             images: [
                 { src: salad_spinner, alt: 'Salad Spinner 3D Model' },
             ],
             links: [
+                { text: 'View Salad Spinner Model', url: 'https://www.thingiverse.com/thing:7201859'},
                 { text: 'View Code', url: 'https://github.com/avasdowney/solidifai' },
-                { text: 'View Salad Spinner Model', url: 'https://www.thingiverse.com/thing:7201859'}
             ],
         },
         {

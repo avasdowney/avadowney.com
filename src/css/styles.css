@@ -60,20 +60,15 @@ a:-webkit-any-link {
 }
 
 /* Resume grouping styles */
-.company {
+.group {
     margin: 1.5rem 0 2rem 0;
-}
-.company > h3 {
-    color: #ffffff;
-    margin: 0 0 0.75rem 0;
-    font-size: 1.4rem;
-}
-.roles {
     border-left: 3px solid #30363d;
     margin-left: 0.5rem;
     padding-left: 1rem;
 }
+
 .role { margin: 0 0 1.25rem 0; }
-.role-title { color: #e0e0e0; font-weight: 600; }
 .role-dates { color: #9aa0a6; font-size: 0.95rem; margin: 0.15rem 0 0.35rem 0; }
-.role-desc { color: #b1b1b1; line-height: 1.6; }
+
+.title { color: #e0e0e0; font-weight: 600; }
+.desc { color: #b1b1b1; line-height: 1.6; }
