@@ -97,7 +97,7 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
-            title: 'Solidifai',
+            title: 'SolidifAI',
             description: 'A project inspired by my need to print a fully functional mini salad spinner (which surprisingly did not already exist) and my lack of 3D modeling expertise. This project uses generative AI to create ready-to-print 3D models from natural language prompts.',
             tags: ['Python', 'Gen AI', 'Bedrock', 'Prompt Engineering', 'FastAPI', 'In Progress'],
             images: [
