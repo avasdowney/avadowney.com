@@ -41,7 +41,10 @@ const iconStyle = {
 };
 
 const scrollBtnStyle = {
-    marginTop: '2.5rem',
+    position: 'fixed',
+    bottom: '2rem',
+    left: '50%',
+    transform: 'translateX(-50%)',
     background: '#202020b3',
     border: 'none',
     borderRadius: '50%',
@@ -53,6 +56,7 @@ const scrollBtnStyle = {
     cursor: 'pointer',
     boxShadow: '0 2px 8px #00000026',
     transition: 'background 0.2s',
+    zIndex: 1000,
 };
 
 const arrowStyle = {
@@ -81,14 +85,38 @@ const bioSectionStyle = {
 
 const About = () => {
     const bioRef = React.useRef(null);
-    const handleScroll = () => {
-        if (bioRef.current) {
+    const aboutContainerRef = React.useRef(null);
+    const [showArrow, setShowArrow] = React.useState(true);
+    const [pointingUp, setPointingUp] = React.useState(false);
+
+    React.useEffect(() => {
+        const handleScroll = () => {
+            if (aboutContainerRef.current && bioRef.current) {
+                const aboutRect = aboutContainerRef.current.getBoundingClientRect();
+                const bioRect = bioRef.current.getBoundingClientRect();
+                
+                // Show arrow if we're on either section
+                setShowArrow(aboutRect.bottom > 0 || bioRect.top < window.innerHeight);
+                
+                // Point up if bio section is in view, down if about section is in view
+                setPointingUp(bioRect.top < window.innerHeight * 0.5);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+    const handleArrowClick = () => {
+        if (pointingUp && aboutContainerRef.current) {
+            aboutContainerRef.current.scrollIntoView({ behavior: 'smooth' });
+        } else if (!pointingUp && bioRef.current) {
             bioRef.current.scrollIntoView({ behavior: 'smooth' });
         }
     };
     return (
         <>
-            <div style={aboutContainer}>
+            <div ref={aboutContainerRef} style={aboutContainer}>
                 <img src={pic} alt="Ava Bitmoji" style={{
                     height: '30vh',
                     borderRadius: '50%',
@@ -112,9 +140,11 @@ const About = () => {
                         <img src={Email} alt="Email" style={iconStyle} />
                     </a>
                 </div>
-                <button style={scrollBtnStyle} onClick={handleScroll} aria-label="Scroll for more">
-                    <img src={DownArrow} alt="▼" style={arrowStyle} />
-                </button>
+                {showArrow && (
+                    <button style={scrollBtnStyle} onClick={handleArrowClick} aria-label="Scroll for more">
+                        <img src={DownArrow} alt={pointingUp ? "▲" : "▼"} style={{...arrowStyle, transform: pointingUp ? 'rotate(180deg)' : 'rotate(0deg)'}} />
+                    </button>
+                )}
             </div>
             <section ref={bioRef} style={bioSectionStyle}>
                 <div style={{ maxWidth: '600px', margin: '0 auto', color: '#e0e0e0', fontSize: '1.2rem', lineHeight: 1.7, padding: '2rem' }}>
