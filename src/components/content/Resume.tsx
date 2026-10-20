@@ -21,7 +21,7 @@ function Resume(): ReactElement {
         <div className="group">
           <h3>Travelers</h3>
           <div className="role">
-            <div className="title">Data Engineer I — BI&amp;A LDP</div>
+            <div className="title">Data Engineer I</div>
             <div className="role-dates">Apr. 2026 - Present</div>
             <div className="desc">
               I am currently working on several agentic AI applications to improve underwriter efficiency by over 25%
