@@ -31,7 +31,7 @@ function Navbar(): ReactElement {
           </a>
         </NavBtn>
         <NavBtn>
-          <a href="https://www.linkedin.com/in/ava-downey-9b59931aa/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/avasdowney" target="_blank" rel="noreferrer">
             <img src={LinkedIn} alt="LinkedIn" className="navImage" />
           </a>
         </NavBtn>

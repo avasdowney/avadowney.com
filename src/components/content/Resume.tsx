@@ -21,13 +21,15 @@ function Resume(): ReactElement {
         <div className="group">
           <h3>Travelers</h3>
           <div className="role">
-            <div className="title">Data Engineer I — BI&amp;A LDP</div>
+            <div className="title">Data Engineer I</div>
             <div className="role-dates">Apr. 2026 - Present</div>
             <div className="desc">
-              I am currently working on an agentic AI application to improve underwriter efficiency by over 20%
-              within Bond and Specialty Insurance. The utilization of Gen AI tools such as Claude Code and GitHub
-              Copilot has been a crucial part of my development process, allowing me to go from ideation to pilot
-              within 2 months while minimizing tech debt.
+              I am currently working on several agentic AI applications to improve underwriter efficiency by over 25%
+              within Bond and Specialty Insurance. Through working closely with underwriters to understand their pain
+              points, and utilizing Gen AI tools such as Claude Code, my team has deployed 3 unique agentic applications
+              from idea to production within the last year. The tools range from entity extraction to submission-backed
+              guidances and are all connected through an event-driven architecture. This has resulted in a cumulative
+              1,000,000 hours of underwriter time saved annually, enabling underwriters to focus on more strategic tasks.
             </div>
           </div>
           <div className="role">
