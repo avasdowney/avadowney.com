@@ -175,12 +175,13 @@ function About(): ReactElement {
         <div style={bioContainerStyle}>
           <p>
             As a Data Engineer at Travelers Insurance, I have built several innovative Generative AI solutions from end
-            to end, including Travelers' first and only external Gen AI application. My dedication to innovation
-            recently earned me first place in a company-wide competition for an agentic reasoning model where I was
-            able to work with cross-functional teams to improve our business processes. I've also been a champion for
-            internal Gen AI adoption, leading workshops to introduce tools such as GitHub Copilot and Claude Code to my 
-            line of business while minimizing tech debt. My professional passion is Generative AI, while my downtime is
-            dedicated to hitting the hiking trails, diving into a video game with friends, and cycling on rail trails.
+            to end, including Travelers' first external Gen AI application. My dedication to innovation has earned me
+            first place in a company-wide competition for an agentic reasoning model where I was able to work with
+            cross-functional teams to improve our business processes. I've also been a champion for internal Gen AI
+            adoption, leading workshops to introduce tools such as Claude Code to my value stream while minimizing tech
+            debt. My ability to effectively utilize Gen AI tools alongside my experience building AI applications has 
+            allowed me to work on several high-impact agentic projects. Outside of work, my downtime is dedicated to
+            hitting the hiking trails, diving into a video game with friends, and cycling on rail trails and on Zwift.
           </p>
         </div>
       </section>
